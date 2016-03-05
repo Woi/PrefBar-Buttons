@@ -1,0 +1,17 @@
+{
+  "prefbar:info": {
+    "formatversion": 3
+  },
+  "prefbar:menu:enabled": {
+    "items": [
+      "prefbar:button:FXcompat"
+    ]
+  },
+  "prefbar:button:FXcompat": {
+    "label": "Fx compat",
+    "type": "check",
+    "prefstring": "general.useragent.compatMode.firefox",
+    "topref": "value",
+    "frompref": "value"
+  }
+}

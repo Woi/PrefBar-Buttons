@@ -1,0 +1,33 @@
+{
+  "prefbar:info": {
+    "formatversion": 3
+  },
+  "prefbar:menu:enabled": {
+    "items": [
+      "prefbar:button:MinTLS"
+    ]
+  },
+  "prefbar:button:MinTLS": {
+    "type": "menulist",
+    "label": "MinTLS",
+    "prefstring": "security.tls.version.min",
+    "items": [
+      [
+        "SSL 3.0",
+        "0"
+      ],
+      [
+        "TLS 1.0",
+        "1"
+      ],
+      [
+        "TLS 1.1",
+        "2"
+      ],
+      [
+        "TLS 1.2",
+        "3"
+      ]
+    ]
+  }
+}
