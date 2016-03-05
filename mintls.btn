@@ -4,10 +4,10 @@
   },
   "prefbar:menu:enabled": {
     "items": [
-      "prefbar:button:MinTLS"
+      "prefbar:button:minTLS"
     ]
   },
-  "prefbar:button:MinTLS": {
+  "prefbar:button:minTLS": {
     "type": "menulist",
     "label": "MinTLS",
     "prefstring": "security.tls.version.min",

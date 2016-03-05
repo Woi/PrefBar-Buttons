@@ -4,10 +4,10 @@
   },
   "prefbar:menu:enabled": {
     "items": [
-      "prefbar:button:FXcompat"
+      "prefbar:button:Fxcompat"
     ]
   },
-  "prefbar:button:FXcompat": {
+  "prefbar:button:Fxcompat": {
     "label": "Fx compat",
     "type": "check",
     "prefstring": "general.useragent.compatMode.firefox",
