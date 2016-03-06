@@ -14,7 +14,7 @@ For SeaMonkey this setting also affect the connections made my MailNews, so your
 Please note that SSL 3.0 support was disabled by default in [December 2014](https://www.mozilla.org/en-US/firefox/34.0.5/releasenotes/) due to serious security issues.
 So stick to TLS 1.0 and above.
 
-Hardened TLS settings can be protect by adding `user_pref("security.tls.version.min", 3);` to `user.js`.
+Hardened TLS settings can be protected by adding `user_pref("security.tls.version.min", 3);` to `user.js`.
 
 ## Fx compat
 
@@ -26,4 +26,4 @@ There is an article on MDA [for details and better approches](https://developer.
 Most Mozilla browsers come with Firefox compatibility enabled by default, but there are various reasons to disable it:
 Be it out of curiosity which websites fail on a prober detection, be it to advocate a diverse web and support your favourite browser or be it because broken websites should not be fixed permanently by a dirty workaround.
 
-This setting can be protext by adding `user_pref("general.useragent.compatMode.firefox", false);` to `user.js`.
+This setting can be protected by adding `user_pref("general.useragent.compatMode.firefox", false);` to `user.js`.
