@@ -13,10 +13,6 @@
     "prefstring": "security.tls.version.min",
     "items": [
       [
-        "SSL 3.0",
-        "0"
-      ],
-      [
         "TLS 1.0",
         "1"
       ],

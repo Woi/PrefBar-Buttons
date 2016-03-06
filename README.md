@@ -8,11 +8,8 @@ This is very useful to make sure changes are only temporary, even in cases you f
 ## MinTLS
 
 Use the MinTLS button to easily select the minimum supported SSL/TLS protocol version.
-This allows to use a more secure setting in every days usage and only temporarly fall back should a server not support the modern TLS variants.
+This allows to use a more secure setting in every days usage and only temporarly fall back, should a server not support the modern TLS variants.
 For SeaMonkey this setting also affect the connections made my MailNews, so your mail servers need to support the higher settings as well.
-
-Please note that SSL 3.0 support was disabled by default in [December 2014](https://www.mozilla.org/en-US/firefox/34.0.5/releasenotes/) due to serious security issues.
-So stick to TLS 1.0 and above.
 
 Hardened TLS settings can be protected by adding `user_pref("security.tls.version.min", 3);` to `user.js`.
 
