@@ -20,7 +20,7 @@ Hardened TLS settings can be protected by adding `user_pref("security.tls.versio
 
 This button allows to switch advertisement of Firefox compatibility in the user agent string of SeaMonkey and maybe other Mozilla-based browsers.
 Some websites fail to correctly identify Mozilla browsers others then Firefox, due to parsing the user agent string for "Firefox" instead of testing for supported features or check type and version of the rendering engine.
-Among these websites are Microsoft Outlook Web Access (OWA), Google Websearch, Google Maps and YouTube.
+Among these websites are Microsoft Outlook Web Access (OWA), Google Websearch and Google Maps.
 There is an article on MDA [for details and better approches](https://developer.mozilla.org/en-US/docs/Browser_detection_using_the_user_agent).
 
 Most Mozilla browsers come with Firefox compatibility enabled by default, but there are various reasons to disable it:
